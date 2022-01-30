@@ -1,0 +1,9 @@
+body {
+    font-family: FreeMono, monospace;
+    font-size: 15pt;
+    background: #1d1830;
+    background: linear-gradient(to bottom left, #291741, #1d1830, #1d1830);
+}
+h1 {
+    color: #ff1af4
+}
