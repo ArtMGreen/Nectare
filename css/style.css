@@ -1,9 +1,58 @@
 body {
-    font-family: FreeMono, monospace;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 15pt;
     background: #1d1830;
     background: linear-gradient(to bottom left, #291741, #1d1830, #1d1830);
 }
-h1 {
-    color: #ff1af4
+
+.head {
+    text-align: center;
+}
+
+img {
+  border-radius: 10px 10px;
+  border: 10px solid transparent;
+  border-image: linear-gradient(to bottom left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)) 10;
+}
+
+a {
+  color: #00fffb;
+  text-decoration: none;
+  letter-spacing: .5rem;
+  font-size: x-large;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.col-3 {
+  background: transparent;
+  margin: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.row {
+    display: flex;
+    background: transparent;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.nectare {
+    color: #ff1af4;
+    font-size: 100px;
+    letter-spacing: .5rem;
+}
+
+table {
+    font-size: 35px;
+    color: #00fffb;
+    text-align: center;
+    border: 5px;
+    border-color: rgba(176, 255, 251, 0.5);
+    background: rgba(176, 255, 251, 0.1);
+
 }
